@@ -1,0 +1,122 @@
+*
+{
+    font-family: "Monaco", monospace;
+    border-width: thick;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.colorpicker
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 200px;
+    flex-direction: column;
+}
+
+.colorpicker > button
+{
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.colorpicker > input
+{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.mainContent
+{
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container
+{   
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 10px;
+    margin-right: 200px;
+    
+}
+
+p
+{
+   display: flex;
+   justify-content: center; 
+}
+
+
+.sliderClass
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+}
+
+.slider
+{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #c4c4c4;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #000000;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #000000;
+    cursor: pointer;
+}
+
+.sliderClass >button
+{
+    width: 100px;
+    height: 30px;
+    
+    align-self: center;
+}
+.text
+{
+    
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+

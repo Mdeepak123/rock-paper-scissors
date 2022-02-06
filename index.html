@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="sketch.js"></script>
+
+    </head>
+    
+    <body>
+
+        <div class="title">
+            <h1>Etch a Sketch</h1>
+        </div>
+        
+
+        <div class="mainContent">
+            <div class = "colorpicker">
+                Color picker: <input type="color" id="myColor" value="#ff0080"/>
+                <button type="button" id = 'tryButton' onclick="myFunction()">Try it</button>
+                <button type="button" onclick="changeState('erase')">Eraser</button>
+            </div>
+            <div class="container"></div>
+        </div>
+
+        <p>Select the Dimensions before Coloring:</p>
+        <div class="sliderClass">
+            <input type="range" min="1" max="64" value="32" class="slider" id="myRange" oninput="sliderActions()">
+            <div class="text">32x32</div>
+            <button type="button" onclick="getFinalVal()">Submit</button>
+        </div>
+
+    </body>
+</html>
